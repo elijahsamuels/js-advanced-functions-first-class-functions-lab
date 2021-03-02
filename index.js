@@ -18,6 +18,4 @@ function fareTripler(fare) {
 	return fare *3;
 };
 
-const selectDifferentDrivers = function(drivers, arrayOfDrivers) {
-	return arrayOfDrivers(drivers);
-};
+const selectDifferentDrivers = (drivers, arrayOfDrivers) => arrayOfDrivers(drivers);
